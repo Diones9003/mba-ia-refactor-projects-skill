@@ -1,12 +1,14 @@
 {
   "name": "desafio-arquitetura-ia-boilerplate",
-  "version": "1.0.0",
-  "description": "Boilerplate com código legado para refatoração",
+  "version": "2.0.0",
+  "description": "LMS API (Node.js/Express) refatorada para MVC em camadas",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "validate": "node scripts/validate_contracts.js"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^4.18.2",
     "sqlite3": "^5.1.6"
   }
